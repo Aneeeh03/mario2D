@@ -63,7 +63,7 @@ public class LevelEditorScene extends Scene {
         this.camera = new Camera(new Vector2f(-200, -300));
         defaultShader = new Shader("assets/shaders/default.glsl");
         defaultShader.compile();
-        this.testTexture = new Texture("assets/images/testImage.jpg");
+        this.testTexture = new Texture("assets/images/testImage.png");
 
         // Generate VAO, VBO, EBO objects
         vaoID = glGenVertexArrays();

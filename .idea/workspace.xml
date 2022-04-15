@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8690cd73-85e2-4a1e-92cc-3c0e9684d805" name="Changes" comment="Scene Manager added">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shaders/default.glsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/images/testImage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GameStudio/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/renderer/Texture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="8690cd73-85e2-4a1e-92cc-3c0e9684d805" name="Changes" comment="Textures added (3.30)">
+      <change afterPath="$PROJECT_DIR$/Assets/images/testImage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GameStudio/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameStudio/LevelEditorScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameStudio/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameStudio/Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameStudio/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameStudio/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/Texture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,16 +48,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "C:/Users/sethi/OneDrive/Documents/OOAD/mario2D/Assets/images",
+    "last_opened_file_path": "C:/Users/sethi/OneDrive/Documents/OOAD/mario2D/assets/images",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sethi\OneDrive\Documents\OOAD\mario2D\assets\images" />
       <recent name="C:\Users\sethi\OneDrive\Documents\OOAD\mario2D\Assets\images" />
     </key>
   </component>
@@ -120,7 +115,28 @@
       <option name="project" value="LOCAL" />
       <updated>1650007117861</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Textures added (3.30)">
+      <created>1650026169981</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650026169981</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Textures added (3.30)">
+      <created>1650026339471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650026339471</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Textures added (3.30)">
+      <created>1650026406776</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650026406776</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,9 +151,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Window added&#10;KeyListeners added&#10;MouseListeners added&#10;Fading animation works" />
     <MESSAGE value="Minor change" />
     <MESSAGE value="Scene Manager added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scene Manager added" />
+    <MESSAGE value="Textures added (3.30)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Textures added (3.30)" />
   </component>
 </project>

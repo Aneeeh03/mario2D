@@ -48,6 +48,7 @@ public class Window {
         // Terminate GLFW and free Error callback
         glfwTerminate();
         glfwSetErrorCallback(null).free();
+        ;
 
     }
 

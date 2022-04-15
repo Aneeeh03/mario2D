@@ -1,11 +1,8 @@
 package GameStudio;
 
 public abstract class Scene {
-
     protected Camera camera;
-    public Scene() {
-
-    }
+    public Scene() {}
     public void init(){
 
     }

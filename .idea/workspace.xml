@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8690cd73-85e2-4a1e-92cc-3c0e9684d805" name="Changes" comment="Minor change" />
+    <list default="true" id="8690cd73-85e2-4a1e-92cc-3c0e9684d805" name="Changes" comment="Scene Manager added">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/default.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/testImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GameStudio/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/renderer/Texture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GameStudio/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameStudio/LevelEditorScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GameStudio/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameStudio/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GameStudio/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameStudio/Window.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,9 +57,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/sethi/OneDrive/Documents/OOAD/mario2D/Assets/images",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sethi\OneDrive\Documents\OOAD\mario2D\Assets\images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -93,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650002368160</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Scene Manager added">
+      <created>1650007117861</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650007117861</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Window added&#10;KeyListeners added&#10;MouseListeners added&#10;Fading animation works" />
     <MESSAGE value="Minor change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor change" />
+    <MESSAGE value="Scene Manager added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scene Manager added" />
   </component>
 </project>

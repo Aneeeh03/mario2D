@@ -5,6 +5,8 @@ import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.opengl.GL;
 import util.Time;
 
+import java.util.Objects;
+
 import static org.lwjgl.glfw.Callbacks.glfwFreeCallbacks;
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11.*;
@@ -13,12 +15,11 @@ import static org.lwjgl.system.MemoryUtil.NULL;
 // This is a Singleton class, as we only need
 // 1 window instance running at once.
 public class Window {
-    private int width, height;
+    private final int width,height;
     private long glfwWindow; // Returned by glfw, when window is created
-    private String title;
+    private final String title;
     private static Window window = null;
     public float r,g,b,a;
-    private boolean fadeToBlack = false;
 
     private static Scene currentScene;
     private Window() {
@@ -42,7 +43,7 @@ public class Window {
                 currentScene.init();
                 break;
             default:
-                assert false : "Unkown Scene '" + newScene + "'";
+                assert false : "Unknown Scene '" + newScene + "'";
                 break;
         }
     }
@@ -66,7 +67,7 @@ public class Window {
 
         // Terminate GLFW and free Error callback
         glfwTerminate();
-        glfwSetErrorCallback(null).free();
+        Objects.requireNonNull(glfwSetErrorCallback(null)).free();
 
     }
 
@@ -125,7 +126,7 @@ public class Window {
 
     public void loop() {
         float beginTime = Time.getTime();
-        float endTime = Time.getTime();
+        float endTime;
         float dt = -1.0f;
         while(!glfwWindowShouldClose(glfwWindow))
         {

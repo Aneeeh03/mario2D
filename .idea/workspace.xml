@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8690cd73-85e2-4a1e-92cc-3c0e9684d805" name="Changes" comment="Minor change">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GameStudio/LevelEditorScene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GameStudio/LevelScene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GameStudio/Scene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameStudio/KeyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameStudio/KeyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameStudio/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameStudio/Window.java" afterDir="false" />
-    </list>
+    <list default="true" id="8690cd73-85e2-4a1e-92cc-3c0e9684d805" name="Changes" comment="Minor change" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,16 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="mario2D.main" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

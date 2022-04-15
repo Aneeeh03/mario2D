@@ -1,7 +1,14 @@
 package GameStudio;
 
 public abstract class Scene {
-    public Scene() {}
+
+    protected Camera camera;
+    public Scene() {
+
+    }
+    public void init(){
+
+    }
     public abstract void update(float dt);
 
 }

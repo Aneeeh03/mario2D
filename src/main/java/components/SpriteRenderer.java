@@ -1,21 +1,28 @@
 package components;
 
+
 import GameStudio.Component;
+import org.joml.Vector4f;
 
 public class SpriteRenderer extends Component {
+      private Vector4f color;
 
-    private boolean firstTime = false;
+       public SpriteRenderer(Vector4f color) {
+       this.color = color; }
+
+
+
+
+
     @Override
-    public void start(){
-        System.out.println("STARTING");
+    public void start() {}
+
+
+    @Override
+    public void update(float dt){
     }
 
-    @Override
-    public void update(float dt)
-    {
-        if(!firstTime){
-            System.out.println("UPDATING");
-            firstTime = true;
-        }
-    }
+     public Vector4f getColor() {
+return this.color;
+}
 }
